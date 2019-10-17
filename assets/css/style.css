@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+}
+.nav-item {
+    border-left: 1px solid white;
+}
+
+.nav-item:first-child {
+    border-left: 0 none;
+}
+.jumbotron h1 {
+    font-size: 4vw;
+}
+.jumbotron ol {
+    padding-left: 15px;
+}
+.jumbotron li {
+    font-size: 1.5vw;
+    padding-left: 5px;
+}
+.jumbotron h6 {
+    font-size: 1.5vw;
+    color: rgb(158, 5, 5)
+}
+body {
+    background:
+    linear-gradient(
+        to bottom left,
+        rgb(207, 206, 206),
+        rgb(27, 27, 27)
+    );
+    /* background-image: url("../images/grey-website-background.jpg") no-repeat center fixed;
+    background-size: cover; */
+}
+/* main {
+    padding: 15vh 0;
+} */
+.navbar {
+    background: rgb(31, 30, 30);
+}
+.navbar-brand {
+    font-size: 3.8vw;
+    color: white;
+}
+.nav-link {
+    color: white;
+}
+#footer {
+    background: rgb(12, 12, 12);
+}
+.fab {
+    font-size: 3.5vw;
+    color: white;
+    margin: 10px 20px;
+}
