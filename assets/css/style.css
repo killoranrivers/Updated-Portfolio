@@ -12,22 +12,26 @@
     border: 3px solid rgb(158, 5, 5);
     border-radius: 100%;
 }
-.jumbotron {
-    border: 1px solid black;
-}
-.jumbotron h1 {
+#dictionary h1 {
+    font-family: 'Times New Roman', Times, serif;
     font-size: 4vw;
 }
-.jumbotron ol {
+#dictionary {
+    border: 1px solid black;
+    background-color: rgb(233, 233, 221)
+}
+#dictionary ol {
     padding-left: 15px;
 }
-.jumbotron li {
+#dictionary li {
     font-size: 1.5vw;
     padding-left: 5px;
 }
-.jumbotron h6 {
+#dictionary h6 {
     font-size: 1.5vw;
     color: rgb(158, 5, 5);
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
 }
 body {
     background:
@@ -42,7 +46,8 @@ body {
     position: relative;
 }
 main {
-    padding-bottom: 3.5rem;
+    padding-bottom: 9vh;
+    padding-top: 15vh;
 }
 .navbar {
     background: rgb(31, 30, 30);
@@ -91,4 +96,36 @@ main {
 .contact-info i {
     font-size: 3.7vw;
     vertical-align: middle;
+}
+
+@media only screen and (max-width: 575.98px) {
+    #my-name {
+        font-size: 7vw;
+    }
+    #portrait {
+        width: 50%;
+        margin: 5vh 0;
+    }
+    #dictionary {
+        width: 85%;
+    }
+    #dictionary h1 {
+        font-size: 5.2vw;
+    }
+    #dictionary h6,
+    #dictionary li {
+        font-size: 2.8vw;
+    }
+    #footer i {
+        font-size: 6vw;
+    }
+    #footer {
+        padding: 1vh 0;
+    }
+    .nav-item {
+        border-left: none;
+    }
+    body {
+        padding-top: 11vh;
+    }
 }
