@@ -8,6 +8,9 @@
 .nav-item:first-child {
     border-left: 0 none;
 }
+a:hover {
+    color: rgb(158, 5, 5)!important;
+}
 #portrait {
     border: 3px solid rgb(158, 5, 5);
     border-radius: 100%;
@@ -114,18 +117,24 @@ main {
     }
     #dictionary h6,
     #dictionary li {
-        font-size: 2.8vw;
+        font-size: 3.2vw;
     }
     #footer i {
         font-size: 6vw;
+        margin-top: 3vh;
     }
-    #footer {
-        padding: 1vh 0;
-    }
+#footer {
+    margin-bottom: 0;
+}
     .nav-item {
         border-left: none;
     }
-    body {
-        padding-top: 11vh;
+    main {
+        padding-top: 10vh;
+    }
+    .navbar {
+        position: absolute;
+        width: 100%;
+        z-index: 9999;
     }
 }
