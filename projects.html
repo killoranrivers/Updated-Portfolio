@@ -1,108 +1,179 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Killoran Lehenbauer | Projects</title>
 
-       <!-- Google Fonts -->
-       <link href="https://fonts.googleapis.com/css?family=Acme|Lobster&display=swap" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Acme|Lobster&display=swap" rel="stylesheet">
 
-        <!-- Font Awesome -->
-        <script src="https://kit.fontawesome.com/95a97a493a.js" crossorigin="anonymous"></script>
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/95a97a493a.js" crossorigin="anonymous"></script>
 
-        <!-- Bootstrap CSS -->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-    
-        <!-- My CSS -->
-        <link rel="stylesheet" href="./assets/css/style.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+    <!-- My CSS -->
+    <link rel="stylesheet" href="./assets/css/style.css">
 </head>
+
 <body>
     <!-- Navbar -->
     <nav class="navbar navbar-expand-md fixed-top navbar-dark">
-            <span class="navbar-brand" id="my-name">Killoran Lehenbauer</span>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-    
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="./index.html">Home<span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./projects.html">Projects</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Contact</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
+        <span class="navbar-brand" id="my-name">Killoran Lehenbauer</span>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
 
-        <!-- Project Gallery -->
-       <main>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="./index.html">Home<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./projects.html">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Project Gallery -->
+    <main>
         <div class="container py-5" id="projects-gallery">
             <div class="row pb-4">
                 <div class="col-sm-12 text-center page-title">
                     <h2>A few of my projects...</h2>
                 </div>
             </div>
-            <div class="row align-items-center">
-                <div class="col-sm-4 mx-auto">
-                    <figure class="figure">
-                        <img src="./assets/images/crystal-collector.png" class="figure-img img-fluid rounded" width="300px" height="300px" alt="Crystal Collector screenshot">
-                        <figcaption class="figure-caption">
-                            Crystal Collector Game
-                        </figcaption> 
-                    </figure>
-                </div>
-                <div class="col-sm-4 mx-auto">
-                        <figure class="figure">
-                            <img src="./assets/images/word-guess.png" class="figure-img img-fluid rounded" width="300px" height="300px" alt="Halloween Hangman screenshot">
-                            <figcaption class="figure-caption">
-                                Halloween Hangman
-                            </figcaption> 
-                        </figure>
-                    </div>
-                    <div class="col-sm-4 mx-auto">
-                            <figure class="figure">
-                                <img src="./assets/images/fright-finder.png" class="figure-img img-fluid rounded" width="300px" height="300px" alt="Fright Finder screenshot">
-                                <figcaption class="figure-caption">
-                                    Halloween Event Finder
-                                </figcaption> 
-                            </figure>
+            <div class="row pb-4">
+                <div class="card-deck">
+                    <div class="card">
+                        <img src="./assets/images/crystal-collector.png" class="card-img-top"
+                            alt="Crystal Collector screenshot">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Crystal Collector</h5>
+                            <p class="card-text">A memory game where the user tries to collect enough crystals to add up
+                                to a predetermined, randomized target number.</p>
                         </div>
+                        <div class="card-body text-center" id="tech-used">
+                            <p>Technology icons here</p>
+                        </div>
+                        <div class="card-body d-flex flex-row">
+                            <a href="https://github.com/ToxicNerd13/unit-4-game" class="card-link">VIEW REPO</a>
+                            <a href="https://toxicnerd13.github.io/unit-4-game/" class="card-link ml-auto">LIVE SITE</a>
+                        </div>
+                    </div>
+
+
+                    <div class="card">
+                        <img src="./assets/images/word-guess.png" class="card-img-top"
+                            alt="Halloween Hangman screenshot">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Halloween Hangman</h5>
+                            <p class="card-text">A spooky take on the traditional Hangman game. The user tries to guess
+                                Halloween words, but it's Game Over after 10 wrong guesses!</p>
+                        </div>
+                        <div class="card-body text-center" id="tech-used">
+                            <p>Technology icons here</p>
+                        </div>
+                        <div class="card-body d-flex flex-row">
+                            <a href="https://github.com/ToxicNerd13/Word-Guess-Game" class="card-link">GITHUB REPO</a>
+                            <a href="https://toxicnerd13.github.io/Word-Guess-Game/" class="card-link ml-auto">LIVE
+                                SITE</a>
+                        </div>
+                    </div>
+
+
+                    <div class="card">
+                        <img src="./assets/images/fright-finder.png" class="card-img-top"
+                            alt="Fright Finder screenshot">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Fright Finder</h5>
+                            <p class="card-text">A local event finder for Halloween parties, community events, haunted
+                                houses, and more. User casn search by category or by city.</p>
+                        </div>
+                        <div class="card-body text-center" id="tech-used">
+                            <p>Technology icons here</p>
+                        </div>
+                        <div class="card-body d-flex flex-row">
+                            <a href="https://github.com/ToxicNerd13/Fright-Finder" class="card-link">GITHUB REPO</a>
+                            <a href="https://toxicnerd13.github.io/Fright-Finder/" class="card-link ml-auto">LIVE
+                                SITE</a>
+                        </div>
+                    </div>
+                </div>
             </div>
             <div class="row">
-                <div class="col-sm-4 mx-auto">
-                    <figure class="figure">
-                        <img src="./assets/images/liri-node.png" class="figure-img img-fluid rounded" width="300px" height="300px" alt="LIRI node app screenshot">
-                        <figcaption class="figure-caption">
-                            LIRI Node.js App
-                        </figcaption> 
-                    </figure>
+                <div class="col-sm-2"></div>
+                <div class="col-sm-8">
+                    <div class="card-deck">
+                        <div class="card text-center">
+                            <img src="./assets/images/liri-node.png" class="card-img-top"
+                                alt="LIRI node app screenshot">
+                            <div class="card-body">
+                                <h5 class="card-title">LIRI app</h5>
+                                <p class="card-text">A Node app run in the command line that lets the user search
+                                    Spotify
+                                    for songs, OMDB for movies, or BandsInTown for concerts. There is also a "random"
+                                    command that chooses for the user.</p>
+                            </div>
+                            <div class="card-body" id="tech-used">
+                                <p>Technology icons here</p>
+                            </div>
+                            <div class="card-body">
+                                <a href="https://github.com/ToxicNerd13/liri-node-app" class="card-link">GITHUB REPO</a>
+                            </div>
+                        </div>
+
+
+                        <div class="card text-center">
+                            <img src="./assets/images/bamazon.png" class="card-img-top"
+                                alt="Bamazon CLI app screenshot">
+                            <div class="card-body">
+                                <h5 class="card-title">Bamazon Warehouse</h5>
+                                <p class="card-text">A Node app that runs in the command line and lets the user buy
+                                    items
+                                    from a "warehouse" database I created. The app updates inventory and will not
+                                    process a
+                                    purchase if inventory is too low.</p>
+                            </div>
+                            <div class="card-body" id="tech-used">
+                                <p>Technology icons here</p>
+                            </div>
+                            <div class="card-body">
+                                <a href="https://github.com/ToxicNerd13/Bamazon" class="card-link">GITHUB REPO</a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
+                <div class="col-sm-2"></div>
             </div>
         </div>
     </main>
 
-  <!-- Footer -->
-  <footer class="container-fluid" id="footer">
+    <!-- Footer -->
+    <footer class="container-fluid" id="footer">
         <div class="row">
             <div class="col-12 text-center info-icons">
                 <a href="https://github.com/ToxicNerd13"><i class="fab fa-github"></i></a>
-                <a href="https://www.linkedin.com/in/killoran-lehenbauer-057381195/"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://www.linkedin.com/in/killoran-lehenbauer-057381195/"><i
+                        class="fab fa-linkedin-in"></i></a>
                 <a href="./assets/my-resume.pdf"><i class="far fa-file"></i></a>
             </div>
         </div>
     </footer>
-    
-        <!-- Bootstrap jQuery and JS-->
-    
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+    <!-- Bootstrap jQuery and JS-->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 </body>
+
 </html>

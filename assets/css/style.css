@@ -74,30 +74,28 @@ main {
     color: white;
     margin: 10px 20px;
 }
-.figure {
-    border: 2px solid white;
-    border-radius: 5px;
-    padding: 7px;
-    background: white;
+.card {
     box-shadow: 5px 10px 8px rgb(36, 35, 35);
 }
-.figure-caption {
-  text-align: center;
-  color: black;
+.card img {
+    min-height: 40vh;
+    max-height: 40vh;
+}
+#tech-used {
+    border-top: 1px solid rgb(196, 192, 192);
+    border-bottom: 1px solid rgb(196, 192, 192);
 }
 .page-title h2 {
     font-size: 3vw;  
     font-family: 'Acme', sans-serif;
 }
-.contact-info p, 
-.contact-info i {
-    line-height: 4vh;
-}
 .contact-info p {
     font-size: 2.5vw;
+    line-height: 4vh;
 }
 .contact-info i {
     font-size: 3.7vw;
+    line-height: 4vh;
     vertical-align: middle;
 }
 
@@ -123,7 +121,7 @@ main {
         font-size: 6vw;
         margin-top: 3vh;
     }
-#footer {
+    #footer {
     margin-bottom: 0;
 }
     .nav-item {
