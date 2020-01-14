@@ -11,7 +11,11 @@
 a:hover {
     color: rgb(158, 5, 5)!important;
 }
+.portrait-column {
+    margin-top: -20px;
+}
 #portrait {
+    width: 275px;
     border: 3px solid rgb(158, 5, 5);
     border-radius: 100%;
 }
@@ -29,6 +33,7 @@ a:hover {
 #dictionary li {
     font-size: 1.5vw;
     padding-left: 5px;
+    font-family: 'Special Elite', cursive;
 }
 #dictionary h6 {
     font-size: 1.5vw;
@@ -43,14 +48,7 @@ body {
         rgb(231, 229, 229),
         rgb(27, 27, 27)
     );
-    /* background-image: url("../images/grey-website-background.jpg") no-repeat center fixed;
-    background-size: cover; */
     min-height: 100vh;
-    position: relative;
-}
-main {
-    padding-bottom: 9vh;
-    padding-top: 15vh;
 }
 .navbar {
     background: rgb(31, 30, 30);
@@ -63,11 +61,22 @@ main {
 .nav-link {
     color: white;
 }
+main {
+    position: relative;
+}
+#about-me h2 {
+    font-size: 2vw;
+    color: white;
+}
+#technologies {
+    border-top: 1px solid white;
+}
+.tech-icons {
+    padding-top: 10px;
+}
 #footer {
     background: rgb(12, 12, 12);
-    position: absolute;
-    bottom: 0;
-    height: 3.5rem;
+    position: relative;
 }
 .info-icons i {
     font-size: 3.5vw;
@@ -99,7 +108,7 @@ main {
     vertical-align: middle;
 }
 
-@media only screen and (max-width: 575.98px) {
+@media only screen and (max-width: 575px) {
     #my-name {
         font-size: 7vw;
     }
@@ -128,7 +137,7 @@ main {
         border-left: none;
     }
     main {
-        padding-top: 10vh;
+        padding-top: 7vh;
     }
     .navbar {
         position: absolute;
