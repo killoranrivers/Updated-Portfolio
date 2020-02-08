@@ -14,6 +14,10 @@ a:hover {
 .portrait-column {
     margin-top: -20px;
 }
+.portrait-column h2 {
+    font-family: 'Times New Roman';
+    color: rgb(177, 174, 174);
+}
 #portrait {
     width: 275px;
     border: 3px solid rgb(158, 5, 5);
@@ -71,8 +75,9 @@ main {
 #technologies {
     border-top: 1px solid white;
 }
-.tech-icons {
-    padding-top: 10px;
+.tech-icon img {
+    min-height: 35px;
+    min-width: 35px;
 }
 #footer {
     background: rgb(12, 12, 12);
@@ -86,13 +91,19 @@ main {
 .card {
     box-shadow: 5px 10px 8px rgb(36, 35, 35);
 }
-.card img {
+.screenshot {
     min-height: 40vh;
     max-height: 40vh;
 }
-#tech-used {
+.project-description {
+    min-height: 30vh;
+}
+.tech-used {
     border-top: 1px solid rgb(196, 192, 192);
     border-bottom: 1px solid rgb(196, 192, 192);
+}
+.tech-used img {
+    height: 40px;
 }
 .page-title h2 {
     font-size: 3vw;  
