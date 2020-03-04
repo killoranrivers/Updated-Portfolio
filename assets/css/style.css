@@ -76,8 +76,7 @@ main {
     border-top: 1px solid white;
 }
 .tech-icon img {
-    min-height: 35px;
-    min-width: 35px;
+    height: 35px;
 }
 #footer {
     background: rgb(12, 12, 12);
@@ -119,7 +118,7 @@ main {
     vertical-align: middle;
 }
 
-@media only screen and (max-width: 575px) {
+@media only screen and (min-width: 320px) and (max-width: 479px) {
     #my-name {
         font-size: 7vw;
     }
@@ -128,7 +127,8 @@ main {
         margin: 5vh 0;
     }
     #dictionary {
-        width: 85%;
+        width: 85vw;
+        margin-top: 30px;
     }
     #dictionary h1 {
         font-size: 5.2vw;
@@ -142,8 +142,9 @@ main {
         margin-top: 3vh;
     }
     #footer {
-    margin-bottom: 0;
-}
+        position: absolute;
+        bottom: 0;
+    }
     .nav-item {
         border-left: none;
     }
@@ -155,4 +156,43 @@ main {
         width: 100%;
         z-index: 9999;
     }
+    #about-me h2 {
+        font-size: 4vw;
+    }
+    .tech-icon img {
+        height: 35px;
+    }
 }
+
+@media only screen and (min-width: 768px) and (max-width: 979px) {
+    #my-name {
+        font-size: 7vw;
+    }
+    #dictionary {
+        width: 60vw;
+        margin-top: 20px;
+    }
+    #dictionary h1 {
+        font-size: 5.2vw;
+    }
+    #dictionary h6,
+    #dictionary li {
+        font-size: 2.2vw;
+    }
+    #technologies {
+        width: 80vw;
+        margin: 0 auto;
+    }
+    #footer {
+        position: absolute;
+        bottom: 0;
+        height: 6vh;
+        }
+    #footer i {
+        font-size: 5vw;
+
+    }
+    #about-me h2 {
+        font-size: 4vw;
+    }
+    }
