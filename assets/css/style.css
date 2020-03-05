@@ -65,9 +65,9 @@ body {
 .nav-link {
     color: white;
 }
-main {
+/* main {
     position: relative;
-}
+} */
 #about-me h2 {
     font-size: 2vw;
     color: white;
@@ -80,7 +80,7 @@ main {
 }
 #footer {
     background: rgb(12, 12, 12);
-    position: relative;
+    /* position: relative; */
 }
 .info-icons i {
     font-size: 3.5vw;
@@ -137,13 +137,13 @@ main {
     #dictionary li {
         font-size: 3.2vw;
     }
-    #footer i {
-        font-size: 6vw;
-        margin-top: 3vh;
-    }
     #footer {
         position: absolute;
         bottom: 0;
+        width: 100vw;
+    }
+    #footer i {
+        font-size: 6vw;
     }
     .nav-item {
         border-left: none;
@@ -184,8 +184,6 @@ main {
         margin: 0 auto;
     }
     #footer {
-        position: absolute;
-        bottom: 0;
         height: 6vh;
         }
     #footer i {
