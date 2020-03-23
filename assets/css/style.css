@@ -4,7 +4,10 @@
 .nav-item {
     border-left: 1px solid white;
 }
-
+#page-container {
+    position: relative;
+    min-height: 95vh;
+}
 .nav-item:first-child {
     border-left: 0 none;
 }
@@ -52,7 +55,6 @@ body {
         rgb(231, 229, 229),
         rgb(27, 27, 27)
     );
-    min-height: 100vh;
 }
 .navbar {
     background: rgb(31, 30, 30);
@@ -65,9 +67,6 @@ body {
 .nav-link {
     color: white;
 }
-/* main {
-    position: relative;
-} */
 #about-me h2 {
     font-size: 2vw;
     color: white;
@@ -80,7 +79,10 @@ body {
 }
 #footer {
     background: rgb(12, 12, 12);
-    /* position: relative; */
+    position: absolute;
+    bottom: 0;
+    height: 11vh;
+    width: 100%;
 }
 .info-icons i {
     font-size: 3.5vw;
@@ -96,6 +98,7 @@ body {
 }
 .project-description {
     min-height: 30vh;
+    max-height: 30vh;
 }
 .tech-used {
     border-top: 1px solid rgb(196, 192, 192);
@@ -104,9 +107,9 @@ body {
 .tech-used img {
     height: 40px;
 }
-.page-title h2 {
-    font-size: 3vw;  
-    font-family: 'Acme', sans-serif;
+#page-title {
+    font-size: 2.6vw; 
+    text-decoration: underline;
 }
 .contact-info p {
     font-size: 2.5vw;
@@ -121,6 +124,10 @@ body {
 @media only screen and (min-width: 320px) and (max-width: 479px) {
     #my-name {
         font-size: 7vw;
+    }
+    #about-me {
+        padding-left: 30px;
+        padding-right: 30px;
     }
     #portrait {
         width: 50%;
@@ -138,9 +145,7 @@ body {
         font-size: 3.2vw;
     }
     #footer {
-        position: absolute;
-        bottom: 0;
-        width: 100vw;
+        height: 6vh;
     }
     #footer i {
         font-size: 6vw;
@@ -148,11 +153,9 @@ body {
     .nav-item {
         border-left: none;
     }
-    main {
-        padding-top: 7vh;
-    }
     .navbar {
         position: absolute;
+        top: 0;
         width: 100%;
         z-index: 9999;
     }
@@ -188,7 +191,6 @@ body {
         }
     #footer i {
         font-size: 5vw;
-
     }
     #about-me h2 {
         font-size: 4vw;
