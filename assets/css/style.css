@@ -4,6 +4,9 @@
 .nav-item {
     border-left: 1px solid white;
 }
+.nav-link {
+    font-family: 'Overpass', sans-serif;
+}
 #page-container {
     position: relative;
     min-height: 95vh;
@@ -18,7 +21,7 @@ a:hover {
     margin-top: -20px;
 }
 .portrait-column h2 {
-    font-family: 'Times New Roman';
+    font-family: 'Overpass', sans-serif;
     color: rgb(177, 174, 174);
 }
 #portrait {
@@ -89,16 +92,20 @@ body {
     color: white;
     margin: 10px 20px;
 }
+.page-title h2 {
+    font-family: 'Overpass', sans-serif;
+    font-size: 2.4rem; 
+    text-decoration: underline;
+}
 .card {
     box-shadow: 5px 10px 8px rgb(36, 35, 35);
 }
 .screenshot {
-    min-height: 40vh;
-    max-height: 40vh;
+    height: 220px;
+    border-bottom: 4px solid rgb(92, 91, 91);
 }
 .project-description {
-    min-height: 30vh;
-    max-height: 30vh;
+    height: 220px;
 }
 .tech-used {
     border-top: 1px solid rgb(196, 192, 192);
@@ -106,10 +113,6 @@ body {
 }
 .tech-used img {
     height: 40px;
-}
-#page-title {
-    font-size: 2.6vw; 
-    text-decoration: underline;
 }
 .contact-info p {
     font-size: 2.5vw;
@@ -195,4 +198,4 @@ body {
     #about-me h2 {
         font-size: 4vw;
     }
-    }
+}

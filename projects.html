@@ -9,6 +9,7 @@
 
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Acme|Lobster&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Overpass&display=swap" rel="stylesheet">
 
     <!-- Font Awesome -->
     <script src="https://kit.fontawesome.com/95a97a493a.js" crossorigin="anonymous"></script>
@@ -47,22 +48,26 @@
     <!-- Project Gallery -->
     <div id="page-container">
         <div class="container py-5" id="projects-gallery">
+            <!-- First Row -->
             <div class="row pb-4">
-                <div class="col-sm-12 text-center" id="page-title">
+                <div class="col-sm-12 text-center page-title">
                     <h2>Full Stack</h2>
                 </div>
             </div>
-            <div class="row pb-4 justify-content-center">
-                <div class="col-md-9">
-                <div class="card-deck">
-                    <div class="card text-center">
-                        <img src="./assets/images/friend-finder.png" class="card-img-top screenshot"
-                            alt="Friend Finder app screenshot">
-                        <div class="card-body project-description">
-                            <h5 class="card-title">Friend Finder</h5>
-                            <p class="card-text">A survey app that matches the user with their most compatible friend.
-                                Potential matches are stored in an API, and the user's responses are also added to the
-                                API upon sumbission.</p>
+            <div class="row mb-5">
+                <!-- First Card -->
+                <div class="col-sm-4">
+                    <div class="card text-center h-100">
+                        <img src="./assets/images/excer-tracker.png" class="card-img-top screenshot"
+                            alt="Excer-Tracker screenshot">
+                        <div class="project-description d-flex flex-column">
+                            <h4 class="card-title mt-3 mb-0">Excer-Tracker</h4>
+                            <div class="card-body d-flex">
+                                <p class="card-text align-items-center d-flex">A web app designed to help users log
+                                    and track their exercise
+                                    habits. Future functionality will include user accounts, daily goals, and workout suggestions.
+                                </p>
+                            </div>
                         </div>
                         <div class="card-body tech-used">
                             <div class="row">
@@ -84,19 +89,71 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="card-body d-flex">
+                        <div class="card-footer d-flex">
                             <a href="https://github.com/ToxicNerd13/Friend-Finder" class="card-link">VIEW REPO</a>
                             <a href="https://vast-spire-25135.herokuapp.com/" class="card-link ml-auto">LIVE
                                 SITE</a>
                         </div>
                     </div>
+                </div>
 
-                    <div class="card text-center">
-                        <img src="./assets/images/game-on.png" class="card-img-top screenshot"
-                            alt="Game On screenshot">
-                        <div class="card-body project-description">
-                            <h5 class="card-title">Game On</h5>
-                            <p class="card-text">A website where gamers can search game titles and obtain ratings, available platforms, and other information. Users can also leave their own reviews on our site and see what other players are saying about games.</p>
+                <!-- Second Card -->
+                <div class="col-sm-4">
+                    <div class="card text-center h-100">
+                        <img src="./assets/images/friend-finder.png" class="card-img-top screenshot"
+                            alt="Friend Finder app screenshot">
+                        <div class="project-description d-flex flex-column">
+                            <h4 class="card-title mt-3 mb-0">Friend Finder</h4>
+                            <div class="card-body d-flex">
+                                <p class="card-text align-items-center d-flex">A survey app that matches the user with
+                                    their most compatible
+                                    friend.
+                                    Potential matches are stored in an API, and the user's responses are also added to
+                                    the
+                                    API upon submission.</p>
+                            </div>
+                        </div>
+                        <div class="card-body tech-used">
+                            <div class="row">
+                                <div class="col-sm tech-icon px-1">
+                                    <img class="img-fluid" src="./assets/images/html5-icon.png" alt="HTML5 icon">
+                                </div>
+                                <div class="col-sm tech-icon px-1">
+                                    <img class="img-fluid" src="./assets/images/css3-icon.png" alt="CSS3 icon">
+                                </div>
+                                <div class="col-sm tech-icon px-1">
+                                    <img class="img-fluid" src="./assets/images/javascript-icon.png"
+                                        alt="Javascript icon">
+                                </div>
+                                <div class="col-sm tech-icon px-1">
+                                    <img class="img-fluid" src="./assets/images/jquery-icon.png" alt="jQuery icon">
+                                </div>
+                                <div class="col-sm tech-icon px-1">
+                                    <img class="img-fluid" src="./assets/images/nodejs-icon.png" alt="Nodejs icon">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-footer d-flex">
+                            <a href="https://github.com/ToxicNerd13/Friend-Finder" class="card-link">VIEW REPO</a>
+                            <a href="https://vast-spire-25135.herokuapp.com/" class="card-link ml-auto">LIVE
+                                SITE</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Third Card -->
+                <div class="col-sm-4">
+                    <div class="card text-center h-100">
+                        <img src="./assets/images/game-on.png" class="card-img-top screenshot" alt="Game On screenshot">
+                        <div class="project-description d-flex flex-column">
+                            <h4 class="card-title mt-3 mb-0">Game On</h4>
+                            <div class="card-body d-flex">
+                                <p class="card-text align-items-center d-flex">A website where gamers can search game
+                                    titles and obtain ratings,
+                                    available platforms, and other information. Users can also leave their own reviews
+                                    on
+                                    our site and see what other players are saying about games.</p>
+                            </div>
                         </div>
                         <div class="card-body tech-used">
                             <div class="row">
@@ -121,31 +178,34 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="card-body d-flex">
+                        <div class="card-footer d-flex">
                             <a href="https://github.com/hannahm63/project-2" class="card-link">VIEW REPO</a>
                             <a href="https://game-on3.herokuapp.com/" class="card-link ml-auto">LIVE
                                 SITE</a>
                         </div>
                     </div>
-
                 </div>
             </div>
-            </div>
 
+            <!-- Second Row -->
             <div class="row pb-4">
-                <div class="col-sm-12 text-center" id="page-title">
+                <div class="col-sm-12 text-center page-title">
                     <h2>Front End</h2>
                 </div>
             </div>
-            <div class="row pb-4">
-                <div class="card-deck">
-                    <div class="card text-center">
+            <div class="row mb-5">
+                <!-- First Card -->
+                <div class="col-sm-4">
+                    <div class="card text-center h-100">
                         <img src="./assets/images/crystal-collector.png" class="card-img-top screenshot"
                             alt="Crystal Collector screenshot">
-                        <div class="card-body project-description">
-                            <h5 class="card-title">Crystal Collector</h5>
-                            <p class="card-text">A memory game where the user tries to collect enough crystals to add up
-                                to a predetermined, randomized target number.</p>
+                        <div class="project-description d-flex flex-column">
+                            <h4 class="card-title mt-3 mb-0">Crystal Collector</h4>
+                            <div class="card-body d-flex">
+                                <p class="card-text align-items-center d-flex">A memory game where the user tries to collect enough crystals to
+                                    add up
+                                    to a predetermined, randomized target number.</p>
+                            </div>
                         </div>
                         <div class="card-body tech-used">
                             <div class="row">
@@ -164,19 +224,25 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="card-body d-flex flex-row">
+                        <div class="card-footer d-flex">
                             <a href="https://github.com/ToxicNerd13/unit-4-game" class="card-link">VIEW REPO</a>
                             <a href="https://toxicnerd13.github.io/unit-4-game/" class="card-link ml-auto">LIVE SITE</a>
                         </div>
                     </div>
+                </div>
 
-                    <div class="card text-center">
+                <!-- Second Card -->
+                <div class="col-sm-4">
+                    <div class="card text-center h-100">
                         <img src="./assets/images/fright-finder.png" class="card-img-top screenshot"
                             alt="Fright Finder screenshot">
-                        <div class="card-body project-description">
-                            <h5 class="card-title">Fright Finder</h5>
-                            <p class="card-text">A local event finder for Halloween parties, community events, haunted
-                                houses, and more. User can search by category or by city.</p>
+                        <div class="project-description d-flex flex-column">
+                            <h4 class="card-title mt-3 mb-0">Fright Finder</h4>
+                            <div class="card-body d-flex">
+                                <p class="card-text align-items-center d-flex">A local event finder for Halloween parties, community events,
+                                    haunted
+                                    houses, and more. User can search by category or by city.</p>
+                            </div>
                         </div>
                         <div class="card-body tech-used">
                             <div class="row">
@@ -195,20 +261,27 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="card-body d-flex flex-row">
+                        <div class="card-footer d-flex">
                             <a href="https://github.com/ToxicNerd13/Fright-Finder" class="card-link">VIEW REPO</a>
                             <a href="https://toxicnerd13.github.io/Fright-Finder/" class="card-link ml-auto">LIVE
                                 SITE</a>
                         </div>
                     </div>
+                </div>
 
-                    <div class="card text-center">
+                <!-- Third Card -->
+                <div class="col-sm-4">
+                    <div class="card text-center h-100">
                         <img src="./assets/images/memory-game.png" class="card-img-top screenshot"
                             alt="Memory Game screenshot">
-                        <div class="card-body project-description">
-                            <h5 class="card-title mb-1">Memory Game</h5>
-                            <p class="card-text">A game where the user clicks an image and attempts to click each one
-                                only once. To provide a challenge, the images rearrange themselves after each click!</p>
+                        <div class="project-description d-flex flex-column">
+                            <h4 class="card-title mt-3 mb-0">Memory Game</h4>
+                            <div class="card-body d-flex">
+                                <p class="card-text align-items-center d-flex">A game where the user clicks an image and attempts to click each
+                                    one
+                                    only once. To provide a challenge, the images rearrange themselves after each click!
+                                </p>
+                            </div>
                         </div>
                         <div class="card-body tech-used">
                             <div class="row">
@@ -230,7 +303,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="card-body d-flex">
+                        <div class="card-footer d-flex">
                             <a href="https://github.com/ToxicNerd13/Memory-Game" class="card-link">VIEW REPO</a>
                             <a href="https://toxicnerd13.github.io/Memory-Game/" class="card-link ml-auto">LIVE
                                 SITE</a>
@@ -239,23 +312,26 @@
                 </div>
             </div>
 
+            <!-- Third Row -->
             <div class="row pb-4">
-                <div class="col-sm-12 text-center" id="page-title">
+                <div class="col-sm-12 text-center page-title">
                     <h2>Back End</h2>
                 </div>
             </div>
-            <div class="row mb-5 justify-content-center">
-                <div class="col-md-9">
-                <div class="card-deck">
-                    <div class="card text-center">
+            <div class="row mb-5 justify-content-around">
+                <!-- First Card -->
+                <div class="col-sm-4">
+                    <div class="card text-center h-100">
                         <img src="./assets/images/liri-node.png" class="card-img-top screenshot"
                             alt="LIRI node app screenshot">
-                        <div class="card-body project-description pt-0">
-                            <h5 class="card-title">LIRI app</h5>
-                            <p class="card-text">A Node app run in the command line that lets the user search
-                                Spotify
-                                for songs, OMDB for movies, or BandsInTown for concerts. There is also a "random"
-                                command that chooses for the user.</p>
+                        <div class="project-description d-flex flex-column">
+                            <h4 class="card-title mt-3 mb-0">LIRI app</h4>
+                            <div class="card-body d-flex">
+                                <p class="card-text align-items-center d-flex">A Node app run in the command line that lets the user search
+                                    Spotify
+                                    for songs, OMDB for movies, or BandsInTown for concerts. There is also a "random"
+                                    command that chooses for the user.</p>
+                            </div>
                         </div>
                         <div class="card-body tech-used">
                             <div class="row justify-content-center">
@@ -268,21 +344,26 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="card-body">
+                        <div class="card-footer d-flex">
                             <a href="https://github.com/ToxicNerd13/liri-node-app" class="card-link">VIEW REPO</a>
                         </div>
                     </div>
+                </div>
 
-                    <div class="card text-center">
+                <!-- Second Card -->
+                <div class="col-sm-4">
+                    <div class="card text-center h-100">
                         <img src="./assets/images/bamazon.png" class="card-img-top screenshot"
                             alt="Bamazon CLI app screenshot">
-                        <div class="card-body project-description">
-                            <h5 class="card-title">Bamazon Warehouse</h5>
-                            <p class="card-text">A Node app that runs in the command line and lets the user buy
-                                items
-                                from a "warehouse" database I created. The app updates inventory and will not
-                                process a
-                                purchase if inventory is too low.</p>
+                        <div class="project-description d-flex flex-column">
+                            <h4 class="card-title mt-3 mb-0">Bamazon Warehouse</h4>
+                            <div class="card-body d-flex">
+                                <p class="card-text align-items-center d-flex">A Node app that runs in the command line and lets the user buy
+                                    items
+                                    from a "warehouse" database I created. The app updates inventory and will not
+                                    process a
+                                    purchase if inventory is too low.</p>
+                            </div>
                         </div>
                         <div class="card-body tech-used">
                             <div class="row">
@@ -298,34 +379,32 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="card-body">
+                        <div class="card-footer d-flex">
                             <a href="https://github.com/ToxicNerd13/Bamazon" class="card-link">VIEW REPO</a>
                         </div>
                     </div>
                 </div>
             </div>
-            </div>
         </div>
 
         <!-- Footer -->
-        <footer class="container-fluid">
-            <div class="row" id="footer">
+        <div class="container-fluid">
+            <footer class="row" id="footer">
                 <div class="col-12 text-center info-icons">
                     <a href="https://github.com/ToxicNerd13"><i class="fab fa-github"></i></a>
                     <a href="https://www.linkedin.com/in/killoran-lehenbauer-057381195/"><i
                             class="fab fa-linkedin-in"></i></a>
                     <a href="./assets/my-resume.pdf"><i class="far fa-file"></i></a>
                 </div>
-            </div>
-        </footer>
+            </footer>
+        </div>
+</div>
 
-    </div>
 
+        <!-- Bootstrap jQuery and JS-->
 
-    <!-- Bootstrap jQuery and JS-->
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 </body>
 
 </html>
