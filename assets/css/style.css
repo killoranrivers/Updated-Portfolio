@@ -1,6 +1,9 @@
 * {
     box-sizing: border-box;
 }
+body {
+    min-height: 100vh;
+}
 .nav-item {
     border-left: 1px solid white;
 }
@@ -9,7 +12,7 @@
 }
 #page-container {
     position: relative;
-    min-height: 95vh;
+    min-height: 88vh;
 }
 .nav-item:first-child {
     border-left: 0 none;
@@ -80,6 +83,9 @@ body {
 .tech-icon img {
     height: 35px;
 }
+#technologies .tech-icon img:hover {
+    height: 42px;
+}
 #footer {
     background: rgb(12, 12, 12);
     position: absolute;
@@ -102,7 +108,7 @@ body {
 }
 .screenshot {
     height: 220px;
-    border-bottom: 4px solid rgb(92, 91, 91);
+    border-bottom: 2px solid rgb(139, 139, 139);
 }
 .project-description {
     height: 220px;
