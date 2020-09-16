@@ -22,41 +22,42 @@
 </head>
 
 <body>
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-md static-top navbar-dark">
-        <span class="navbar-brand" id="my-name">Killoran Lehenbauer</span>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="./index.html">Home<span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="./projects.html">Projects</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Contact</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
-
-    <!-- Project Gallery -->
+    
     <div id="page-container">
-        <div class="container py-5" id="projects-gallery">
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-md fixed-top navbar-dark">
+            <span class="navbar-brand" id="my-name">Killoran Lehenbauer</span>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+    
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="./index.html">Home<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./projects.html">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- Project Gallery -->
+        <div class="container pt-4 pb-5" id="projects-gallery">
             <!-- First Row -->
-            <div class="row pb-4">
+            <div class="row pb-2 pb-md-4">
                 <div class="col-sm-12 text-center page-title">
                     <h2>Full Stack</h2>
                 </div>
             </div>
-            <div class="row mb-5">
+            <div class="row mb-3 mb-md-5">
                 <!-- First Card -->
-                <div class="col-sm-4">
+                <div class="col-sm-4 project-card">
                     <div class="card text-center h-100">
                         <img src="./assets/images/excer-tracker.png" class="card-img-top screenshot"
                             alt="Excer-Tracker screenshot">
@@ -72,20 +73,20 @@
                         </div>
                         <div class="card-body tech-used">
                             <div class="row">
-                                <div class="col-sm tech-icon px-1">
+                                <div class="col tech-icon px-1">
                                     <img class="img-fluid" src="./assets/images/html5-icon.png" alt="HTML5 icon">
                                 </div>
-                                <div class="col-sm tech-icon px-1">
+                                <div class="col tech-icon px-1">
                                     <img class="img-fluid" src="./assets/images/css3-icon.png" alt="CSS3 icon">
                                 </div>
-                                <div class="col-sm tech-icon px-1">
+                                <div class="col tech-icon px-1">
                                     <img class="img-fluid" src="./assets/images/javascript-icon.png"
                                         alt="Javascript icon">
                                 </div>
-                                <div class="col-sm tech-icon px-1">
+                                <div class="col tech-icon px-1">
                                     <img class="img-fluid" src="./assets/images/jquery-icon.png" alt="jQuery icon">
                                 </div>
-                                <div class="col-sm tech-icon px-1">
+                                <div class="col tech-icon px-1">
                                     <img class="img-fluid" src="./assets/images/nodejs-icon.png" alt="Nodejs icon">
                                 </div>
                             </div>
@@ -99,7 +100,7 @@
                 </div>
 
                 <!-- Second Card -->
-                <div class="col-sm-4">
+                <div class="col-sm-4 project-card">
                     <div class="card text-center h-100">
                         <img src="./assets/images/friend-finder.png" class="card-img-top screenshot"
                             alt="Friend Finder app screenshot">
@@ -116,20 +117,20 @@
                         </div>
                         <div class="card-body tech-used">
                             <div class="row">
-                                <div class="col-sm tech-icon px-1">
+                                <div class="col tech-icon px-1">
                                     <img class="img-fluid" src="./assets/images/html5-icon.png" alt="HTML5 icon">
                                 </div>
-                                <div class="col-sm tech-icon px-1">
+                                <div class="col tech-icon px-1">
                                     <img class="img-fluid" src="./assets/images/css3-icon.png" alt="CSS3 icon">
                                 </div>
-                                <div class="col-sm tech-icon px-1">
+                                <div class="col tech-icon px-1">
                                     <img class="img-fluid" src="./assets/images/javascript-icon.png"
                                         alt="Javascript icon">
                                 </div>
-                                <div class="col-sm tech-icon px-1">
+                                <div class="col tech-icon px-1">
                                     <img class="img-fluid" src="./assets/images/jquery-icon.png" alt="jQuery icon">
                                 </div>
-                                <div class="col-sm tech-icon px-1">
+                                <div class="col tech-icon px-1">
                                     <img class="img-fluid" src="./assets/images/nodejs-icon.png" alt="Nodejs icon">
                                 </div>
                             </div>
@@ -143,7 +144,7 @@
                 </div>
 
                 <!-- Third Card -->
-                <div class="col-sm-4">
+                <div class="col-sm-4 project-card">
                     <div class="card text-center h-100">
                         <img src="./assets/images/game-on.png" class="card-img-top screenshot" alt="Game On screenshot">
                         <div class="project-description d-flex flex-column">
@@ -158,23 +159,23 @@
                         </div>
                         <div class="card-body tech-used">
                             <div class="row">
-                                <div class="col-sm tech-icon px-1">
+                                <div class="col tech-icon px-1">
                                     <img class="img-fluid" src="./assets/images/html5-icon.png" alt="HTML5 icon">
                                 </div>
-                                <div class="col-sm tech-icon px-1">
+                                <div class="col tech-icon px-1">
                                     <img class="img-fluid" src="./assets/images/css3-icon.png" alt="CSS3 icon">
                                 </div>
-                                <div class="col-sm tech-icon px-1">
+                                <div class="col tech-icon px-1">
                                     <img class="img-fluid" src="./assets/images/javascript-icon.png"
                                         alt="Javascript icon">
                                 </div>
-                                <div class="col-sm tech-icon px-1">
+                                <div class="col tech-icon px-1">
                                     <img class="img-fluid" src="./assets/images/jquery-icon.png" alt="jQuery icon">
                                 </div>
-                                <div class="col-sm tech-icon px-1">
+                                <div class="col tech-icon px-1">
                                     <img class="img-fluid" src="./assets/images/nodejs-icon.png" alt="Nodejs icon">
                                 </div>
-                                <div class="col-sm tech-icon px-1">
+                                <div class="col tech-icon px-1">
                                     <img class="img-fluid" src="./assets/images/mysql-icon.png" alt="MySQL icon">
                                 </div>
                             </div>
@@ -189,14 +190,14 @@
             </div>
 
             <!-- Second Row -->
-            <div class="row pb-4">
+            <div class="row pb-2 pb-md-4">
                 <div class="col-sm-12 text-center page-title">
                     <h2>Front End</h2>
                 </div>
             </div>
-            <div class="row mb-5">
+            <div class="row mb-3 mb-md-5">
                 <!-- First Card -->
-                <div class="col-sm-4">
+                <div class="col-sm-4 project-card">
                     <div class="card text-center h-100">
                         <img src="./assets/images/crystal-collector.png" class="card-img-top screenshot"
                             alt="Crystal Collector screenshot">
@@ -211,17 +212,17 @@
                         </div>
                         <div class="card-body tech-used">
                             <div class="row">
-                                <div class="col-sm px-1 tech-icon">
+                                <div class="col px-1 tech-icon">
                                     <img class="img-fluid" src="./assets/images/html5-icon.png" alt="HTML5 icon">
                                 </div>
-                                <div class="col-sm px-1 tech-icon">
+                                <div class="col px-1 tech-icon">
                                     <img class="img-fluid" src="./assets/images/css3-icon.png" alt="CSS3 icon">
                                 </div>
-                                <div class="col-sm tech-icon px-1">
+                                <div class="col tech-icon px-1">
                                     <img class="img-fluid" src="./assets/images/javascript-icon.png"
                                         alt="Javascript icon">
                                 </div>
-                                <div class="col-sm tech-icon px-1">
+                                <div class="col tech-icon px-1">
                                     <img class="img-fluid" src="./assets/images/jquery-icon.png" alt="jQuery icon">
                                 </div>
                             </div>
@@ -234,7 +235,7 @@
                 </div>
 
                 <!-- Second Card -->
-                <div class="col-sm-4">
+                <div class="col-sm-4 project-card">
                     <div class="card text-center h-100">
                         <img src="./assets/images/fright-finder.png" class="card-img-top screenshot"
                             alt="Fright Finder screenshot">
@@ -249,17 +250,17 @@
                         </div>
                         <div class="card-body tech-used">
                             <div class="row">
-                                <div class="col-sm px-1 tech-icon">
+                                <div class="col px-1 tech-icon">
                                     <img class="img-fluid" src="./assets/images/html5-icon.png" alt="HTML5 icon">
                                 </div>
-                                <div class="col-sm px-1 tech-icon">
+                                <div class="col px-1 tech-icon">
                                     <img class="img-fluid" src="./assets/images/css3-icon.png" alt="CSS3 icon">
                                 </div>
-                                <div class="col-sm tech-icon px-1">
+                                <div class="col tech-icon px-1">
                                     <img class="img-fluid" src="./assets/images/javascript-icon.png"
                                         alt="Javascript icon">
                                 </div>
-                                <div class="col-sm tech-icon px-1">
+                                <div class="col tech-icon px-1">
                                     <img class="img-fluid" src="./assets/images/jquery-icon.png" alt="jQuery icon">
                                 </div>
                             </div>
@@ -273,7 +274,7 @@
                 </div>
 
                 <!-- Third Card -->
-                <div class="col-sm-4">
+                <div class="col-sm-4 project-card">
                     <div class="card text-center h-100">
                         <img src="./assets/images/memory-game.png" class="card-img-top screenshot"
                             alt="Memory Game screenshot">
@@ -289,20 +290,20 @@
                         </div>
                         <div class="card-body tech-used">
                             <div class="row">
-                                <div class="col-sm tech-icon px-1">
+                                <div class="col tech-icon px-1">
                                     <img class="img-fluid" src="./assets/images/html5-icon.png" alt="HTML5 icon">
                                 </div>
-                                <div class="col-sm tech-icon px-1">
+                                <div class="col tech-icon px-1">
                                     <img class="img-fluid" src="./assets/images/css3-icon.png" alt="CSS3 icon">
                                 </div>
-                                <div class="col-sm tech-icon px-1">
+                                <div class="col tech-icon px-1">
                                     <img class="img-fluid" src="./assets/images/javascript-icon.png"
                                         alt="Javascript icon">
                                 </div>
-                                <div class="col-sm tech-icon px-1">
+                                <div class="col tech-icon px-1">
                                     <img class="img-fluid" src="./assets/images/nodejs-icon.png" alt="Nodejs icon">
                                 </div>
-                                <div class="col-sm tech-icon px-1">
+                                <div class="col tech-icon px-1">
                                     <img class="img-fluid" src="./assets/images/react-icon.png" alt="Reactjs icon">
                                 </div>
                             </div>
@@ -317,14 +318,14 @@
             </div>
 
             <!-- Third Row -->
-            <div class="row pb-4">
+            <div class="row pb-2 pb-md-4">
                 <div class="col-sm-12 text-center page-title">
                     <h2>Back End</h2>
                 </div>
             </div>
             <div class="row mb-5 justify-content-around">
                 <!-- First Card -->
-                <div class="col-sm-4">
+                <div class="col-sm-4 project-card">
                     <div class="card text-center h-100">
                         <img src="./assets/images/liri-node.png" class="card-img-top screenshot"
                             alt="LIRI node app screenshot">
@@ -340,11 +341,11 @@
                         </div>
                         <div class="card-body tech-used">
                             <div class="row justify-content-center">
-                                <div class="col-sm tech-icon px-1">
+                                <div class="col tech-icon px-1">
                                     <img class="img-fluid" src="./assets/images/javascript-icon.png"
                                         alt="Javascript icon">
                                 </div>
-                                <div class="col-sm tech-icon px-1">
+                                <div class="col tech-icon px-1">
                                     <img class="img-fluid" src="./assets/images/nodejs-icon.png" alt="Nodejs icon">
                                 </div>
                             </div>
@@ -356,7 +357,7 @@
                 </div>
 
                 <!-- Second Card -->
-                <div class="col-sm-4">
+                <div class="col-sm-4 project-card">
                     <div class="card text-center h-100">
                         <img src="./assets/images/bamazon.png" class="card-img-top screenshot"
                             alt="Bamazon CLI app screenshot">
@@ -373,14 +374,14 @@
                         </div>
                         <div class="card-body tech-used">
                             <div class="row">
-                                <div class="col-sm tech-icon px-1">
+                                <div class="col tech-icon px-1">
                                     <img class="img-fluid" src="./assets/images/javascript-icon.png"
                                         alt="Javascript icon">
                                 </div>
-                                <div class="col-sm tech-icon px-1">
+                                <div class="col tech-icon px-1">
                                     <img class="img-fluid" src="./assets/images/mysql-icon.png" alt="MySQL icon">
                                 </div>
-                                <div class="col-sm tech-icon px-1">
+                                <div class="col tech-icon px-1">
                                     <img class="img-fluid" src="./assets/images/nodejs-icon.png" alt="Nodejs icon">
                                 </div>
                             </div>

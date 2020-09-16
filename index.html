@@ -26,31 +26,32 @@
 <body>
 
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-md navbar-dark">
-        <span class="navbar-brand" id="my-name">Killoran Lehenbauer</span>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="./index.html">Home<span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="./projects.html">Projects</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Contact</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
-
+    
     <div id="page-container">
-        <div class="container mt-5" id="about-me">
-            <div class="row justify-content-between pt-5">
+        <nav class="navbar fixed-top navbar-expand-md navbar-dark">
+            <span class="navbar-brand" id="my-name">Killoran Lehenbauer</span>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+    
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="./index.html">Home<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./projects.html">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="container" id="about-me">
+            <div class="row justify-content-between pt-md-5">
                 <div class="col-lg-5 text-center portrait-column">
                     <img class="img-fluid mb-3" id="portrait" src="./assets/images/portrait.png"
                         alt="Portrait of Killoran">
@@ -84,7 +85,7 @@
                     </div>
                 </div>
                 <div class="col-lg-6">
-                    <div class="jumbotron py-1 mb-0 mx-auto" id="dictionary">
+                    <div class="jumbotron py-1 mt-2 mx-auto" id="dictionary">
                         <h1>Kill&#8226;or&#8226;an</h1>
                         <h6>[KUH-LOR-en] / <em>noun</em></h6>
                         <ol>
@@ -102,18 +103,19 @@
                 </div>
             </div>
         </div>
+        
         <!-- Footer -->
-
-        <footer class="container-fluid">
-            <div class="row" id="footer">
+        <div class="container-fluid">
+            <footer class="row" id="footer">
                 <div class="col-12 text-center info-icons">
                     <a href="https://github.com/ToxicNerd13"><i class="fab fa-github"></i></a>
                     <a href="https://www.linkedin.com/in/killoran-lehenbauer-057381195/"><i
                             class="fab fa-linkedin-in"></i></a>
                     <a href="./assets/my-resume.pdf"><i class="far fa-file"></i></a>
                 </div>
-            </div>
-        </footer>
+            </footer>
+        </div>
+
     </div>
 
 

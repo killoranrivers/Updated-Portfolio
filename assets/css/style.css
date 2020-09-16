@@ -2,6 +2,13 @@
     box-sizing: border-box;
 }
 body {
+    background:
+    linear-gradient(
+        to bottom left,
+        rgb(231, 229, 229),
+        rgb(27, 27, 27)
+    );
+    padding-top: 100px;
     min-height: 100vh;
 }
 .nav-item {
@@ -11,8 +18,8 @@ body {
     font-family: 'Overpass', sans-serif;
 }
 #page-container {
-    position: relative;
-    min-height: 88vh;
+    min-height: 100vh;
+    min-height: -webkit-fill-available;
 }
 .nav-item:first-child {
     border-left: 0 none;
@@ -54,14 +61,6 @@ a:hover {
     font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
 }
-body {
-    background:
-    linear-gradient(
-        to bottom left,
-        rgb(231, 229, 229),
-        rgb(27, 27, 27)
-    );
-}
 .navbar {
     background: rgb(31, 30, 30);
 }
@@ -88,7 +87,7 @@ body {
 }
 #footer {
     background: rgb(12, 12, 12);
-    position: absolute;
+    position: fixed;
     bottom: 0;
     height: 11vh;
     width: 100%;
@@ -100,7 +99,7 @@ body {
 }
 .page-title h2 {
     font-family: 'Overpass', sans-serif;
-    font-size: 2.4rem; 
+    font-size: 34px; 
     text-decoration: underline;
 }
 .card {
@@ -120,34 +119,53 @@ body {
 .tech-used img {
     height: 40px;
 }
+#contact-container {
+    padding-top: 50px;
+}
 .contact-info {
     box-shadow: 5px 10px 8px rgb(36, 35, 35);
 }
 .contact-info p {
-    font-size: 2.5vw;
+    font-size: 20px;
     line-height: 4vh;
 }
 .contact-info i {
-    font-size: 3.7vw;
+    font-size: 30px;
     line-height: 4vh;
     vertical-align: middle;
 }
 
-@media only screen and (min-width: 320px) and (max-width: 479px) {
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+    html {
+        min-height: 100vh;
+        min-height: -webkit-fill-available;
+    }
+    body {
+        padding-top: 50px;
+        min-height: 100vh;
+        min-height: -webkit-fill-available;
+    }
+ #page-container {
+     min-height: 100vh;
+    min-height: -webkit-fill-available;
+    padding-top: 20px;
+ }
     #my-name {
         font-size: 7vw;
     }
     #about-me {
         padding-left: 30px;
         padding-right: 30px;
+        margin-top: 30px;
     }
     #portrait {
         width: 50%;
-        margin: 5vh 0;
+        margin-top: 25px;
     }
     #dictionary {
         width: 85vw;
         margin-top: 30px;
+        margin-bottom: 80px;
     }
     #dictionary h1 {
         font-size: 5.2vw;
@@ -155,6 +173,12 @@ body {
     #dictionary h6,
     #dictionary li {
         font-size: 3.2vw;
+    }
+    .screenshot {
+        height: 250px;
+    }
+    .project-card {
+        margin-bottom: 20px;
     }
     #footer {
         height: 6vh;
@@ -166,10 +190,7 @@ body {
         border-left: none;
     }
     .navbar {
-        position: absolute;
-        top: 0;
         width: 100%;
-        z-index: 9999;
     }
     #about-me h2 {
         font-size: 4vw;
