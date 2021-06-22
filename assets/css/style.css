@@ -146,7 +146,7 @@ a:hover {
         min-height: -webkit-fill-available;
     }
  #page-container {
-     min-height: 100vh;
+    min-height: 100vh;
     min-height: -webkit-fill-available;
     padding-top: 20px;
  }
