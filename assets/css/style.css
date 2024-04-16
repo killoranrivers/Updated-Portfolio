@@ -76,14 +76,17 @@ a:hover {
     font-size: 2vw;
     color: white;
 }
-#technologies {
+#technologies1 {
     border-top: 1px solid white;
 }
 .tech-icon img {
     height: 35px;
 }
-#technologies .tech-icon img:hover {
-    height: 42px;
+#technologies1 .tech-icon img:hover {
+    transform: scale(1.2);
+}
+#technologies2 .tech-icon img:hover {
+    transform: scale(1.2);
 }
 #footer {
     background: rgb(12, 12, 12);
@@ -118,6 +121,9 @@ a:hover {
 }
 .tech-used img {
     height: 35px;
+}
+.tech-used img:hover {
+    transform: scale(1.2);
 }
 #contact-container {
     padding-top: 50px;
